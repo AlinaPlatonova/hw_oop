@@ -1,6 +1,6 @@
 public class Radio {
-    public int numberCurrentStation; //номер текущей радиостанции
-    public int currentVolume; //текущая громкость звука
+    private int numberCurrentStation; //номер текущей радиостанции
+    private int currentVolume; //текущая громкость звука
 
     public Radio() {
         numberCurrentStation = 0; //начальная станция
